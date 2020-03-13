@@ -60,14 +60,10 @@ body {
     background: #e2e7ec;
 }
 
-/* [class^="col-"] {
-    box-sizing: border-box;
-} */
-
-.col-8 {
+.big-article {
     background-image: url(../images/red-car.png);
     max-width: 740px;
-    height: 540px;
+    height: 525.34px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -82,7 +78,7 @@ body {
     margin-bottom: 20px;
 }
 
-.col-8 .caption {
+.big-article .caption {
     font-size: 30px;
     color: #fff;
     font-family: 'hanskendrick';
@@ -90,36 +86,33 @@ body {
     font-weight: bold;
 }
 
-.col-4 {
+.small-article {
     background-color: #fff;
     margin: 0;
     max-width: 360px;
-    height: 540px;
+    /* height: 540px; */
+    box-sizing: border-box;
 }
 
-.col-4 .image {
-    width: 100%;
-}
-
-.col-4 .date {
+.small-article .date {
     font-size: 13px;
     color: #818181;
     font-family: 'hanskendrick';
-    margin: 25px 0 0 0;
+    margin: 25px 0 0 28px;
     text-transform: uppercase;
 }
 
-.col-4 .caption {
+.small-article .caption {
     font-size: 22px;
     color: #1d1d1d;
     font-family: 'hanskendrick';
     text-transform: uppercase;
     font-weight: bold;
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 28px;
 }
 
-.col-4 .author {
-    margin: 70px 0 0 0;
+.small-article .author {
+    margin: 70px 0 0 28px;
 }
 
 .footer {
