@@ -68,6 +68,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 40px;
+    margin: 0 0 20px 0;
 }
 
 .date {
@@ -88,10 +89,14 @@ body {
 
 .small-article {
     background-color: #fff;
-    margin: 0;
+    margin: 0 0 20px 0;
     max-width: 360px;
     /* height: 540px; */
     box-sizing: border-box;
+}
+
+.small-article .image img {
+    width: 100%;
 }
 
 .small-article .date {
